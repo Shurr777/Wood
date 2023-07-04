@@ -1,0 +1,48 @@
+.navbarOverlay {
+    width: 100%;
+    height: 90px;
+    background-color: var(--primary_black);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logolang {
+    display: flex;
+}
+
+.logo {
+    padding-left: 32px;
+    padding-top: 15px;
+}
+
+.lang {
+    color: var(--accent_default);
+    align-self: center;
+    padding-left: 44px;
+    font-size: 22px;
+}
+
+.navBar {
+    display: flex;
+    padding-right: 32px;
+}
+.buttonContainer{
+    padding-left: 24px;
+}
+.navButton {
+    background-color: var(--accent_default);
+    font-weight: bold;
+}
+
+a {
+    color: var(--primary_white);
+    padding-left: 24px;
+    padding-top: 12px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.active {
+
+}

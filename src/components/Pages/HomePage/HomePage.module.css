@@ -1,0 +1,103 @@
+.HomePageOverlay {
+
+}
+
+.HomePageImgOverlay {
+    width: 100%;
+
+}
+
+.homepaageImg {
+    width: 100%;
+}
+
+.statistic {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.statisticBlock {
+    width: 270px;
+}
+
+.digit {
+    font-size: 96px;
+    font-weight: 700;
+    color: var(--accent_decor);
+    text-align: center;
+}
+
+.digitDescription {
+    font-size: 20px;
+    text-align: center;
+}
+
+/*About us*/
+
+.aboutOverlay {
+    margin-top: 95px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+    border: 1px solid var(--primary_border);
+    border-radius: 12px;
+    padding: 50px;
+}
+
+.aboutText {
+    padding-left: 50px;
+}
+
+.aboutHeader {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.aboutDescription {
+    max-width: 444px;
+}
+
+.aboutButton {
+    margin-top: 50px;
+    background-color: var(--primary_black);
+    color: var(--primary_white);
+    padding-bottom: 5px;
+}
+
+/*our values*/
+.valuesOverlay {
+    margin-top: 95px;
+}
+
+.cardsBlock {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.valuesTitle{
+    font-size: 32px;
+}
+
+.valuesCard {
+    max-width: 270px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 10px rgb(240, 240, 240);
+}
+.valuesIcon{
+    padding: 24px;
+}
+.valuesCardTitle{
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 24px;
+}
+.valuesCardText{
+    padding-left: 24px;
+    font-size: 16px;
+    font-weight: 600;
+}
+      /*projects*/

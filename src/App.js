@@ -1,25 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import {useEffect, Suspense} from "react";
+import {BrowserRouter, Navigate, Route, Routes, useLocation} from "react-router-dom";
+import NavBar from "./components/NavBar/NavBar";
+import HomePage from "./components/Pages/HomePage/HomePage";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
+    const renderLoader = () => <p>Loading</p>;
+
+    return (
+        <div className="App">
+            <BrowserRouter>
+                <Suspense fallback={renderLoader()}>
+                    <div className="AppOverlay">
+                        <NavBar/>
+
+                        <Routes>
+                            <Route path="/*" element={<Navigate to="main"/>}/>
+                            <Route path="main" element={<HomePage/>}/>
+                        </Routes>
+
+                    </div>
+                </Suspense>
+            </BrowserRouter>
+        </div>
+    );
 }
 
 export default App;
