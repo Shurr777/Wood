@@ -5,6 +5,11 @@ import val1 from './icons/1.1.png'
 import val2 from './icons/1.2.png'
 import val3 from './icons/1.3.png'
 import val4 from './icons/1.4.png'
+import project1 from './images/projects1.png'
+import project2 from './images/projects2.png'
+import project3 from './images/projects3.png'
+import project4 from './images/projects4.png'
+
 
 const HomePage = () => {
     return (
@@ -126,21 +131,23 @@ const HomePage = () => {
 
             <div className={s.projectsOverlay}>
                 <div className={s.projectsHeader}>
-                    <h2>НАШІ ПРОЄКТИ</h2>
-                    <button className={s.projectsButton}>Детальніше</button>
+                    <h2 className={s.projectTitle}>НАШІ ПРОЄКТИ</h2>
+                    <div className={s.projectsButtonContainer}>
+                        <button className={s.projectsButton}>Детальніше</button>
+                    </div>
                 </div>
                 <div className={s.projectsCardBlock}>
                     <div className={s.projectsImageContainer}>
-
+                        <img src={project1} alt="Blum Cafe"/>
                     </div>
                     <div className={s.projectsImageContainer}>
-
+                        <img src={project2} alt="Blum Cafe"/>
                     </div>
                     <div className={s.projectsImageContainer}>
-
+                        <img src={project3} alt="Blum Cafe"/>
                     </div>
                     <div className={s.projectsImageContainer}>
-
+                        <img src={project4} alt="Blum Cafe"/>
                     </div>
                 </div>
             </div>

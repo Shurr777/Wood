@@ -101,3 +101,34 @@
     font-weight: 600;
 }
       /*projects*/
+
+.projectsOverlay{
+    margin-top: 95px;
+    border: 1px solid var(--primary_border);
+    border-radius: 12px;
+}
+.projectsHeader{
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+.projectTitle{
+    padding-left: 50px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.projectsButton{
+    background-color: var(--primary_black);
+    color: var(--primary_white)
+}
+.projectsButtonContainer{
+    padding-right: 50px;
+}
+.projectsCardBlock{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+}
+.projectsImageContainer{
+
+}
