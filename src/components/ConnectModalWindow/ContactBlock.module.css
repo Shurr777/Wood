@@ -1,0 +1,93 @@
+.contactBlockOverlay {
+    margin-top: 50px;
+    margin-left: 48px;
+    display: flex;
+    height: 100px;
+}
+
+.phonesBlock {
+    display: flex;
+}
+
+.phonesNumberBlock {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.phonesNumberBlock a {
+    color: var(--primary_black);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 0 0 0 5px;
+}
+.emailblock{
+    display: flex;
+    padding-top: 30px;
+}
+
+.emailIconContainer{
+}
+.emailBlock{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 30px 0 0 5px;
+}
+
+.emailText p {
+    margin: 0;
+    padding-left: 10px;
+}
+
+.rightside{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.addressBlock{
+    display: flex;
+}
+
+.addressBlockIcon{
+    padding-top: 5px;
+}
+
+.addresstextBlock p{
+    margin: 0;
+    padding-left: 10px;
+}
+
+.worktimeBlock{
+    padding-top: 18px;
+    display: flex;
+}
+
+.timetextBlock p{
+    margin: 0;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+
+.map{
+   margin-right: 500px;
+
+    width: 362px;
+    height: 365px;
+}
+
+
+
+
+
+
+
+
+
+
+

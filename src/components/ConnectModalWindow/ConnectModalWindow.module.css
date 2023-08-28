@@ -1,0 +1,24 @@
+.windowOverlay{
+    position: fixed;
+    width: 1048px;
+    height: 701px;
+    top: 90px;
+    left: 425px;
+    border: 1px solid var(--primary_border);
+    background-color: var(--primary_white);
+    border-radius: 12px;
+    padding: 48px;
+}
+
+.title{
+    max-width: 450px;
+}
+.titleHeader{}
+.titleText{}
+
+.infoBlock{
+    display: grid;
+    grid-template-columns: 9fr 11fr;
+    position: relative;
+}
+

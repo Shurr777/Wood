@@ -1,0 +1,50 @@
+.inputOverlay{
+    display: flex;
+    flex-direction: column;
+}
+
+label:first-child{
+    padding-top: 32px;
+}
+
+label{
+    padding-top: 24px;
+}
+
+.userNameInput{
+    border: 1px solid var(--primary_border);
+    background: url(icons/nameIcon.png) no-repeat 15px 15px;
+    padding-left: 45px;
+    max-width: 452px;
+    height: 47px;
+    border-radius: 8px;
+}
+.userPhoneInput{
+    border: 1px solid var(--primary_border);
+    background: url(icons/flag.png) no-repeat 15px 15px;
+    padding-left: 45px;
+    max-width: 452px;
+    height: 47px;
+    border-radius: 8px;
+}
+.emailInput{
+    border: 1px solid var(--primary_border);
+    background: url(icons/mailIcon.png) no-repeat 15px 15px;
+    padding-left: 45px;
+    max-width: 452px;
+    height: 47px;
+    border-radius: 8px;
+}
+
+.submitButton{
+    margin-top: 32px;
+    width: 452px;
+    background-color: var(--accent_default);
+}
+.comment{
+    border: 1px solid var(--primary_border);
+    max-width: 493px;
+    resize: none;
+    border-radius: 8px;
+    padding: 10px;
+}

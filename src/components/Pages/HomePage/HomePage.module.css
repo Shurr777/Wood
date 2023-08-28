@@ -11,6 +11,11 @@
     width: 100%;
 }
 
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
 .statistic {
     padding-top: 80px;
     display: flex;
@@ -47,7 +52,7 @@
 }
 
 .aboutText {
-    padding-left: 50px;
+    padding-left: 30px;
 }
 
 .aboutHeader {
@@ -57,6 +62,9 @@
 
 .aboutDescription {
     max-width: 444px;
+}
+.aboutVideo{
+    padding-top: 30px;
 }
 
 .aboutButton {
@@ -114,6 +122,7 @@
 }
 .projectTitle{
     padding-left: 50px;
+    margin-top: 0;
     font-size: 32px;
     font-weight: 700;
 }
@@ -123,12 +132,15 @@
 }
 .projectsButtonContainer{
     padding-right: 50px;
+
 }
 .projectsCardBlock{
     display: grid;
-
+    padding: 50px;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 24px;
+
 }
 .projectsImageContainer{
-
+justify-self: center;
 }

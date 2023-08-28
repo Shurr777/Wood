@@ -17,6 +17,7 @@ const HomePage = () => {
             <div className={s.HomePageImgOverlay}>
                 <img className={s.homepaageImg} src={HomePageImage} alt="Modern Kitchen"/>
             </div>
+            <div className={s.container}>
 
             <div className={s.statistic}>
                 <div className={s.statisticBlock}>
@@ -67,8 +68,8 @@ const HomePage = () => {
                     </p>
                     <button className={s.aboutButton}>Детальніше</button>
                 </div>
-                <div>
-                    <iframe width="658" height="370" src="https://www.youtube.com/embed/wnFV9rNTubk"
+                <div className={s.aboutVideo}>
+                    <iframe width="585" height="330" src="https://www.youtube.com/embed/wnFV9rNTubk"
                             title="YouTube video player" frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen>
@@ -150,6 +151,8 @@ const HomePage = () => {
                         <img src={project4} alt="Blum Cafe"/>
                     </div>
                 </div>
+            </div>
+
             </div>
 
         </div>
