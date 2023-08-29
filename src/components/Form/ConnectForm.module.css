@@ -40,6 +40,7 @@ label{
     margin-top: 32px;
     width: 452px;
     background-color: var(--accent_default);
+    font-weight: 700;
 }
 .comment{
     border: 1px solid var(--primary_border);

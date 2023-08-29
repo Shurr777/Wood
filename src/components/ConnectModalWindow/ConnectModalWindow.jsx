@@ -14,10 +14,7 @@ const ConnectModalWindow = () => {
             <div className={s.infoBlock}>
                 <ConnectForm/>
                 <ContactBlock/>
-                <div></div>
-
             </div>
-
         </div>
     );
 };
